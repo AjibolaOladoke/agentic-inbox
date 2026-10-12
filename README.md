@@ -6,17 +6,16 @@ This is part of the Swift Tech Co. working stack for product and engineering. It
 
 ## Images
 
-[![agentic-inbox](images/preview.png)](https://github.com/Swift-Tech-Co)
+[![agentic-inbox](images/preview.png)](https://github.com/Swift-Tech-Co/agentic-inbox)
 
 ## How to setup
 
 **Important**: Clicking the 'Deploy to Cloudflare' button is only one part of the setup. You must follow the **After deploying** steps as well. For a full step-by-step guide with screenshots, refer to this comment: 
-https://www.swifttechco.com
+https://github.com/Swift-Tech-Co/agentic-inbox
 
 ### To set up
 
-
-     [![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://www.swifttechco.com)
+     [![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://github.com/Swift-Tech-Co/agentic-inbox)
 
 2. **Configure Cloudflare Access** -- Enable one-click Cloudflare Access on your Worker under Settings > Domains & Routes. The modal will show your `POLICY_AUD` and `TEAM_DOMAIN` values. `TEAM_DOMAIN` can be either your Access team URL or the full `.../cdn-cgi/access/certs` URL. **You must set these as secrets for your Worker.**
 3. **Set up Email Routing** -- In the Cloudflare dashboard, go to your domain > Email Routing and create a catch-all rule that forwards to this Worker
@@ -104,13 +103,21 @@ Home | Services | Careers | Referral Program | Influencers | About | Contact
 
 **Connect**
 
-- Website: swifttechco.com
+- Website: https://github.com/Swift-Tech-Co/agentic-inbox
 - LinkedIn: [linkedin.com/in/stephenoladoke](https://www.linkedin.com/in/stephenoladoke/)
 - LinkedIn (Company): [linkedin.com/company/swift-tech-co](https://www.linkedin.com/company/swift-tech-co)
 - X: [@MrOladoke](https://x.com/MrOladoke)
 - Instagram: [@mr.oladoke](https://www.instagram.com/mr.oladoke/)
 - Instagram (Company): [@swifttechco](https://www.instagram.com/swifttechco/)
 - Organization: [github.com/Swift-Tech-Co](https://github.com/Swift-Tech-Co)
+
+## Sources
+
+Compiled and maintained from upstream [cloudflare/agentic-inbox](https://github.com/cloudflare/agentic-inbox) under permissive open-source license.
+
+---
+
+Maintained by [Swift Tech Co.](https://github.com/Swift-Tech-Co) - [Telegram](https://t.me/+Qt_eFvkb2rliMzNh)
 
 ## Sources
 
